@@ -24,7 +24,7 @@ st.title("🚀 Gestión de eventos de Google Colab")
 st.write("Bienvenido a mi aplicación web interactiva.")
 
 # 3. Entradas del usuario (Reemplaza los valores fijos de Colab por controles visuales)
-opcion = st.sidebar.selectbox("Selecciona una opción:", ["Agregar evento 1", "Buscar evento 2", "Reporte de ingreso 3"]
+opcion = st.sidebar.selectbox("Selecciona una opción:", ["Agregar evento 1", "Buscar evento 2", "Reporte de ingreso 3"])
 subir_archivo = st.file_uploader("Sube tu archivo (opcional)", type=["csv", "xlsx"])
 
 # 4. Lógica de tu Colab
